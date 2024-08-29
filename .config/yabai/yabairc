@@ -28,6 +28,8 @@ yabai -m config window_border_width 2
 yabai -m config window_topmost off
 
 # Floating Window Settings
+yabai -m rule --add title='Boom 3D$' manage=off
+yabai -m rule --add app="^Boom 3D$" manage=off
 yabai -m rule --add title='Settings$' manage=off
 yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^System Settings$" manage=off
@@ -36,3 +38,5 @@ yabai -m rule --add title="^Settings$" manage=off
 yabai -m rule --add title="^Preferences$" manage=off
 yabai -m rule --add title="^Digital Colour Meter$" manage=off
 yabai -m rule --add title="^General.*" manage=off
+yabai -m rule --add title="^File Transfer Progress$" manage=off
+yabai -m rule --add app="^Finder$" title="^File Transfer Progress$" manage=off
