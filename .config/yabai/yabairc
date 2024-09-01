@@ -4,11 +4,11 @@ sudo yabai --load-sa
 
 # General Settings
 yabai -m config layout bsp  # Use bsp layout by default   
-yabai -m config window_gap 4  # Set a gap between windows
-yabai -m config top_padding 2   
-yabai -m config bottom_padding 2
-yabai -m config left_padding 2  
-yabai -m config right_padding 2
+yabai -m config window_gap 0  # Set a gap between windows
+yabai -m config top_padding 0   
+yabai -m config bottom_padding 0
+yabai -m config left_padding 0
+yabai -m config right_padding 0
 yabai -m config mouse_follows_focus on  # Mouse follows window focus
 yabai -m config focus_follows_mouse autoraise  # Windows gain focus when hovering
 
