@@ -23,12 +23,23 @@ yabai -m config split_ratio 0.5
 yabai -m config window_topmost off
 
 # Floating Window Settings
-yabai -m rule --add title="$Settings$" manage=off
-yabai -m rule --add title="$Preferences$" manage=off
-yabai -m rule --add title="$Information$" manage=off
-yabai -m rule --add title="$Progress$" manage=off
-yabai -m rule --add title="^General.*" manage=off
+yabai -m rule --add title=".*Settings.*" manage=off
+yabai -m rule --add app=".*Settings.*" manage=off
 
-yabai -m rule --add title="^Boom 3D$" manage=off
-yabai -m rule --add title="^Digital Colour Meter$" manage=off
-yabai -m rule --add title="^Notes$" manage=off
+yabai -m rule --add title=".*Preferences.*" manage=off
+yabai -m rule --add app=".*Preferences.*" manage=off
+
+yabai -m rule --add title=".*Information.*" manage=off
+yabai -m rule --add app=".*Information.*" manage=off
+
+yabai -m rule --add title=".*Progress.*" manage=off
+yabai -m rule --add app=".*Progress.*" manage=off
+
+yabai -m rule --add title=".*General.*" manage=off
+yabai -m rule --add app=".*General.*" manage=off
+
+
+yabai -m rule --add title=".*1Password.*" manage=off
+yabai -m rule --add title=".*Boom 3D.*" manage=off
+yabai -m rule --add title=".*Digital Colour Meter.*" manage=off
+yabai -m rule --add title=".*Notes.*" manage=off
