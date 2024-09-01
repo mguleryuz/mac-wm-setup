@@ -76,4 +76,4 @@ cmd + shift - return: open -na "Brave Browser" --args --new-window
 cmd + shift - n: open .
 
 # Open Settings
-cmd + shift - s: open -a "System Preferences"
+ctrl + shift - s: open -a "System Preferences"
