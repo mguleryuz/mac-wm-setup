@@ -45,7 +45,7 @@ ctrl + shift - space : yabai -m window --toggle float
 
 # from 'default' mode, activate mode 'resize'
 # (this is the key combination you want to use to enter resize mode)
-cmd + shift - r ; resize 
+ctrl - escape ; resize
 
 # from 'resize' mode, activate mode 'default'
 # (this is the keypress required to leave resize mode)
