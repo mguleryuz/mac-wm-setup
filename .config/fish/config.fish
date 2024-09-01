@@ -7,4 +7,5 @@ if status is-interactive
     end
 end
 
-neofetch
+# Import fish colors from ./Monokai_Charcoal.fish and set the prompt
+source ~/.config/fish/Monokai_Charcoal.fish
