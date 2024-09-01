@@ -39,7 +39,4 @@ yabai -m rule --add title=".*General.*" manage=off
 yabai -m rule --add app=".*General.*" manage=off
 
 
-yabai -m rule --add title=".*1Password.*" manage=off
-yabai -m rule --add title=".*Boom 3D.*" manage=off
-yabai -m rule --add title=".*Digital Colour Meter.*" manage=off
-yabai -m rule --add title=".*Notes.*" manage=off
+yabai -m rule --add title=".*(Sign in|1Password|Boom 3D|Digital Colour Meter|Notes).*" manage=off
